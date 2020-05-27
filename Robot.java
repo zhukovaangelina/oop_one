@@ -1,11 +1,11 @@
 package lesson1;
 
-public class Cat implements Actions {
+public class Robot implements Actions {
     private String name;
     private int runDistance;
     private int jumpHeight;
 
-    public Cat(String name, int distance, int jumpHeight) {
+    public Robot(String name, int distance, int jumpHeight) {
         this.name = name;
         this.runDistance = distance;
         this.jumpHeight = jumpHeight;
